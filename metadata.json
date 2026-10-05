@@ -1,0 +1,6 @@
+{
+  "name": "Operação Foco — O Desafio da Concentração",
+  "description": "Jogo educativo gamificado de concentração, memória, atenção seletiva e raciocínio lógico para alunos do 5º ano.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

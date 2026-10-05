@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Accessibility focus ring */
+:focus-visible {
+  outline: 3px solid #06b6d4;
+  outline-offset: 3px;
+}
+
+/* High contrast mode adjustments */
+.high-contrast {
+  --tw-bg-opacity: 1;
+  background-color: #020617 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast .border-slate-800,
+.high-contrast .border-slate-700 {
+  border-color: #38bdf8 !important;
+  border-width: 2px !important;
+}
+
+.high-contrast .text-slate-400,
+.high-contrast .text-slate-300 {
+  color: #f1f5f9 !important;
+}
+
+/* Reduced motion preference */
+.reduced-motion * {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
